@@ -1,0 +1,12 @@
+[package]
+name = "rs-search"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "gumy"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+tokio = { version = "1.40.0", features = ["full"] }
